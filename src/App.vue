@@ -1,17 +1,21 @@
 <template>
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <h1>Simple Chessboard with legal moves</h1>
+    <ChessViewer/>
+
+    <h1>Simple Chessboard with free moves</h1>
+    <ChessViewer :free="true"/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import ChessViewer from './components/ChessViewer.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    ChessViewer
   }
 }
 </script>
