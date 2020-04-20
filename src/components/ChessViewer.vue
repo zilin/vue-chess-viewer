@@ -1,186 +1,238 @@
 <template>
   <div class="blue merida">
     <div ref="board" class="cg-board-wrap"></div>
+    <div ref="boardButtons" class="default buttons">
+      <i class="default button fa fa-adjust" @click="board.toggleOrientation()"></i>
+      <i class="default button fa fa-power-off" @click="reset()"></i>
+      <i class="default button fa fa-undo" @click="undo()"></i>
+    </div>
+    <div ref="boardMoves" class="moves">
+      <span v-for="(move, index) in history" :key="move" class="move">
+        <span class="move">{{ index }}.</span>
+        <a>{{ move }}</a>
+        <span class="comment"></span>
+      </span>
+    </div>
   </div>
 </template>
 
 <script>
-import Chess from 'chess.js'
-import {Chessground} from 'chessground'
-import {uniques} from './Util.js'
+import Chess from "chess.js";
+import { Chessground } from "chessground";
+import { uniques } from "./Util.js";
 
 export default {
-  name: 'ChessViewer',
+  name: "ChessViewer",
   props: {
     fen: {
       type: String,
-      default: '',
+      default: ""
     },
     free: {
       type: Boolean,
-      default: false,
+      default: false
     },
     showThreats: {
       type: Boolean,
-      default: false,
+      default: false
     },
     onPromotion: {
       type: Function,
-      default: () => 'q',
+      default: () => "q"
     },
     orientation: {
       type: String,
-      default: 'white',
-    },
+      default: "white"
+    }
+  },
+  data() {
+    return {
+      history: [],
+      initial_turn: "w",
+    };
   },
   watch: {
-    fen: function (newFen) {
-      this.fen = newFen
-      this.loadPosition()
+    fen: function(newFen) {
+      this.fen = newFen;
+      this.loadPosition();
+      // remember the initial turn
+      this.initial_turn = this.game.turn();
     },
-    orientation: function (orientation) {
-      console.log('watch orientation________', orientation)
-      this.orientation = orientation
-      this.loadPosition()
+    orientation: function(orientation) {
+      this.orientation = orientation;
+      this.loadPosition();
     },
-    showThreats: function (st) {
-      this.showThreats = st
+    showThreats: function(st) {
+      this.showThreats = st;
       if (this.showThreats) {
-        this.paintThreats()
+        this.paintThreats();
       }
-    },
+    }
   },
   methods: {
-    possibleMoves () {
-      const dests = {}
-      this.game.SQUARES.forEach(s => {
-        const ms = this.game.moves({square: s, verbose: true})
-        if (ms.length) dests[s] = ms.map(m => m.to)
-      })
-      return dests
+    reset() {
+      this.game.load(this.fen)
+      this.redraw();
     },
-    opponentMoves () {
-      let originalPGN = this.game.pgn()
-      let tokens = this.game.fen().split(' ')
-      tokens[1] = tokens[1] === 'w' ? 'b' : 'w'
-      tokens = tokens.join(' ')
-      let valid = this.game.load(tokens)
+    undo() {
+      this.game.undo()
+      this.redraw()
+    },
+    possibleMoves() {
+      const dests = {};
+      this.game.SQUARES.forEach(s => {
+        const ms = this.game.moves({ square: s, verbose: true });
+        if (ms.length) dests[s] = ms.map(m => m.to);
+      });
+      return dests;
+    },
+    opponentMoves() {
+      let originalPGN = this.game.pgn();
+      let tokens = this.game.fen().split(" ");
+      tokens[1] = tokens[1] === "w" ? "b" : "w";
+      tokens = tokens.join(" ");
+      let valid = this.game.load(tokens);
       if (valid) {
-        let moves = this.game.moves({verbose: true})
-        this.game.load_pgn(originalPGN)
-        return moves
+        let moves = this.game.moves({ verbose: true });
+        this.game.load_pgn(originalPGN);
+        return moves;
       } else {
-        return []
+        return [];
       }
     },
-    toColor () {
-      return (this.game.turn() === 'w') ? 'white' : 'black'
+    toColor() {
+      return this.game.turn() === "w" ? "white" : "black";
     },
-    paintThreats () {
-      let moves = this.game.moves({verbose: true})
-      let threats = []
-      moves.forEach(function (move) {
-        threats.push({orig: move.to, brush: 'yellow'})
-        if (move['captured']) {
-          threats.push({orig: move.from, dest: move.to, brush: 'red'})
+    paintThreats() {
+      let moves = this.game.moves({ verbose: true });
+      let threats = [];
+      moves.forEach(function(move) {
+        threats.push({ orig: move.to, brush: "yellow" });
+        if (move["captured"]) {
+          threats.push({ orig: move.from, dest: move.to, brush: "red" });
         }
-        if (move['san'].includes('+')) {
-          threats.push({orig: move.from, dest: move.to, brush: 'blue'})
+        if (move["san"].includes("+")) {
+          threats.push({ orig: move.from, dest: move.to, brush: "blue" });
         }
-      })
-      this.board.setShapes(threats)
+      });
+      this.board.setShapes(threats);
     },
-    calculatePromotions () {
-      let moves = this.game.moves({verbose: true})
-      this.promotions = []
+    calculatePromotions() {
+      let moves = this.game.moves({ verbose: true });
+      this.promotions = [];
       for (let move of moves) {
         if (move.promotion) {
-          this.promotions.push(move)
+          this.promotions.push(move);
         }
       }
     },
-    isPromotion   (orig, dest) {
-      let filteredPromotions = this.promotions.filter(move => move.from === orig && move.to === dest)
-      return filteredPromotions.length > 0 // The current movement is a promotion
+    isPromotion(orig, dest) {
+      let filteredPromotions = this.promotions.filter(
+        move => move.from === orig && move.to === dest
+      );
+      return filteredPromotions.length > 0; // The current movement is a promotion
     },
-    changeTurn () {
+    changeTurn() {
       return (orig, dest) => {
         if (this.isPromotion(orig, dest)) {
-          this.promoteTo = this.onPromotion()
+          this.promoteTo = this.onPromotion();
         }
-        this.game.move({from: orig, to: dest, promotion: this.promoteTo}) // promote to queen for simplicity
-        this.board.set({
-          fen: this.game.fen(),
-          turnColor: this.toColor(),
-          movable: {
-            color: this.toColor(),
-            dests: this.possibleMoves(),
-          },
-        })
-        this.calculatePromotions()
-        this.afterMove()
-      }
+        this.game.move({ from: orig, to: dest, promotion: this.promoteTo }); // promote to queen for simplicity
+        this.redraw();
+      };
     },
-    afterMove () {
+    afterMove() {
       if (this.showThreats) {
-        this.paintThreats()
+        this.paintThreats();
       }
-      let threats = this.countThreats(this.toColor()) || {}
-      threats['history'] = this.game.history()
-      threats['fen'] = this.game.fen()
-      this.$emit('onMove', threats)
+      let threats = this.countThreats(this.toColor()) || {};
+      threats["history"] = this.game.history();
+      threats["fen"] = this.game.fen();
+      this.history = this.convertHistory(this.game.history());
+      this.$emit("onMove", threats);
     },
-    countThreats (color) {
-      let threats = {}
-      let captures = 0
-      let checks = 0
-      let moves = this.game.moves({verbose: true})
+    countThreats(color) {
+      let threats = {};
+      let captures = 0;
+      let checks = 0;
+      let moves = this.game.moves({ verbose: true });
       if (color !== this.toColor()) {
-        moves = this.opponentMoves()
+        moves = this.opponentMoves();
       }
       if (moves.length === 0) {
-        return null // It´s an invalid position
+        return null; // It´s an invalid position
       }
-      moves.forEach(function (move) {
-        if (move['captured']) {
-          captures++
+      moves.forEach(function(move) {
+        if (move["captured"]) {
+          captures++;
         }
-        if (move['san'].includes('+')) {
-          checks++
+        if (move["san"].includes("+")) {
+          checks++;
         }
-      })
-      threats[`legal_${color}`] = uniques(moves.map(x => x.from + x.to)).length // promotions count as 4 moves. This remove those duplicates moves.
-      threats[`checks_${color}`] = checks
-      threats[`threat_${color}`] = captures
-      threats[`turn`] = color
-      return threats
+      });
+      threats[`legal_${color}`] = uniques(moves.map(x => x.from + x.to)).length; // promotions count as 4 moves. This remove those duplicates moves.
+      threats[`checks_${color}`] = checks;
+      threats[`threat_${color}`] = captures;
+      threats[`turn`] = color;
+      return threats;
     },
-    loadPosition () { // set a default value for the configuration object itself to allow call to loadPosition()
-      this.game.load(this.fen)
+    redraw() {
+      this.board.set({
+        fen: this.game.fen(),
+        turnColor: this.toColor(),
+        movable: {
+          color: this.toColor(),
+          dests: this.possibleMoves()
+        }
+      });
+      this.calculatePromotions();
+      this.afterMove();
+    },
+    loadPosition() {
+      // set a default value for the configuration object itself to allow call to loadPosition()
+      this.game.load(this.fen);
       this.board = Chessground(this.$refs.board, {
         fen: this.game.fen(),
         turnColor: this.toColor(),
         movable: {
           color: this.toColor(),
           free: this.free,
-          dests: this.possibleMoves(),
+          dests: this.possibleMoves()
         },
-        orientation: this.orientation,
-      })
+        orientation: this.orientation
+      });
       this.board.set({
-        movable: { events: { after: this.changeTurn() } },
-      })
-      this.afterMove()
+        movable: { events: { after: this.changeTurn() } }
+      });
+      this.afterMove();
     },
+    convertHistory(history) {
+      let moves = [];
+      if (this.initial_turn === "b") {
+        moves.push("...");
+      }
+      moves.push(...history);
+      let group_moves = [];
+      for (let i = 0; i < moves.length; i += 2) {
+        if (i < moves.length - 1) {
+          group_moves.push(moves[i] + " " + moves[i + 1]);
+        } else {
+          group_moves.push(moves[i]);
+        }
+      }
+      return group_moves;
+    }
   },
-  mounted () {
-    this.loadPosition()
+  mounted() {
+    this.loadPosition();
+    // remember the initial turn
+    this.initial_turn = this.game.turn();
   },
-  created () {
-    this.game = new Chess()
-    this.board = null
-    this.promotions = []
-    this.promoteTo = 'q'
-  },
-}
+  created() {
+    this.game = new Chess();
+    this.board = null;
+    this.promotions = [];
+    this.promoteTo = "q";
+  }
+};
 </script>
