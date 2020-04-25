@@ -1,38 +1,44 @@
 <template>
   <div id="app">
     <h1>Demo Chessboard Viewer</h1>
-    <ChessViewer :fen="currentFen"/>
-    <chessboard :fen="currentFen"/>
-      <button class="button is-light" @click="loadFen(fen)" v-for="fen in fens" :key="fen">
-        {{fen}}
-      </button>
+    <div>Fen: {{ currentFen }}</div>
+    <ChessViewer :fen="currentFen" />
   </div>
 </template>
 
 <script>
-import ChessViewer from './components/ChessViewer.vue'
+import ChessViewer from "./components/ChessViewer.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
     ChessViewer
   },
-  data () {
+  data() {
     return {
-      currentFen: '',
-    }
+      currentFen: ""
+    };
   },
   methods: {
     loadFen(fen) {
-      this.currentFen = fen
-    },
+      this.currentFen = fen;
+    }
   },
   created() {
-    this.fens = ['5rr1/3nqpk1/p3p2p/Pp1pP1pP/2pP1PN1/2P1Q3/2P3P1/R4RK1 b - f3 0 28',
-                'r4rk1/pp1b3p/6p1/8/3NpP2/1P4P1/P2K3P/R6R w - - 0 22'
-                ]
+    let uri = window.location.href.split("?");
+    if (uri.length === 2) {
+      this.currentFen = decodeURI(uri[1])
+    } else {
+      this.currentFen = "3rkb1r/5pp1/p1Pp3p/1pnN1P2/8/4P3/P5PP/R4Rq1 w - - 0 1"
+    }
+    this.fens = [
+      "3rkb1r/5pp1/p1Pp3p/1pnN1P2/8/4P3/P5PP/R4Rq1 w - - 0 28",
+      "5rk1/3r1p2/p5pp/1p2p3/2Bn4/1P4QP/5PP1/5RK1 w - - 0 28",
+      "4r1k1/2RR2p1/p7/1p5p/6n1/1P3NPq/P4P2/6K1 w - - 0 28",
+      "5rk1/pb1n1p2/1p2pP2/4R3/1p3P2/3P4/P1r1B1p1/5RK1 w - - 0 28"
+    ];
   }
-}
+};
 </script>
 
 <style>
