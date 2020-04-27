@@ -3,10 +3,11 @@
 [SetUp "1"]
 [Date "2020.04.26"]
 [Round "?"]
-[White "?"]
+[White "71"]
 [Black "?"]
 [Result "*"]
 [Site "https://chessify.page.link/main"]
+
 1. Bxh7+ Kxh7 2. Qh5+ Kg8 3. Bxg7 Kxg7 4. Qg4+ Kh8 5. Rf3 Bf6 6. Rh3+ Bh4 7. Rxh4# *
 
 [Event "72"]
@@ -14,10 +15,11 @@
 [SetUp "1"]
 [Date "2020.04.26"]
 [Round "?"]
-[White "?"]
+[White "72"]
 [Black "?"]
 [Result "*"]
 [Site "https://chessify.page.link/main"]
+
 *
 
 [Event "73"]
@@ -25,10 +27,11 @@
 [SetUp "1"]
 [Date "2020.04.26"]
 [Round "?"]
-[White "?"]
+[White "73"]
 [Black "?"]
 [Result "*"]
 [Site "https://chessify.page.link/main"]
+
 *
 
 [Event "74"]
@@ -36,10 +39,11 @@
 [SetUp "1"]
 [Date "2020.04.26"]
 [Round "?"]
-[White "?"]
+[White "74"]
 [Black "?"]
 [Result "*"]
 [Site "https://chessify.page.link/main"]
+
 *
 
 [Event "75"]
@@ -47,10 +51,11 @@
 [SetUp "1"]
 [Date "2020.04.26"]
 [Round "?"]
-[White "?"]
+[White "75"]
 [Black "?"]
 [Result "*"]
 [Site "https://chessify.page.link/main"]
+
 *
 
 [Event "76"]
@@ -58,7 +63,7 @@
 [SetUp "1"]
 [Date "2020.04.26"]
 [Round "?"]
-[White "?"]
+[White "76"]
 [Black "?"]
 [Result "*"]
 [Site "https://chessify.page.link/main"]
@@ -70,7 +75,7 @@
 [SetUp "1"]
 [Date "2020.04.26"]
 [Round "?"]
-[White "?"]
+[White "77"]
 [Black "?"]
 [Result "*"]
 [Site "https://chessify.page.link/main"]
@@ -82,7 +87,7 @@
 [SetUp "1"]
 [Date "2020.04.26"]
 [Round "?"]
-[White "?"]
+[White "78"]
 [Black "?"]
 [Result "*"]
 [Site "https://chessify.page.link/main"]
@@ -94,8 +99,8 @@
 [SetUp "1"]
 [Date "2020.04.26"]
 [Round "?"]
-[White "?"]
-[Black "?"]
+[White "79"]
+[Black "*"]
 [Result "*"]
 [Site "https://chessify.page.link/main"]
 
@@ -106,7 +111,7 @@
 [SetUp "1"]
 [Date "2020.04.26"]
 [Round "?"]
-[White "?"]
+[White "80"]
 [Black "?"]
 [Result "*"]
 [Site "https://chessify.page.link/main"]
@@ -118,7 +123,7 @@
 [SetUp "1"]
 [Date "2020.04.26"]
 [Round "?"]
-[White "?"]
+[White "81"]
 [Black "?"]
 [Result "*"]
 [Site "https://chessify.page.link/main"]
@@ -130,9 +135,10 @@
 [SetUp "1"]
 [Date "2020.04.26"]
 [Round "?"]
-[White "?"]
+[White "82"]
 [Black "?"]
 [Result "*"]
 [Site "https://chessify.page.link/main"]
 
 1. Qf3 Qxf3 2. Rg1+ Kh8 3. Bg7+ Kg8 4. Bxf6+ Qg4 5. Rxg4# *
+
