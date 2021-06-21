@@ -1,0 +1,115 @@
+﻿[Event "World-ch Anand-Topalov +3-2=7"]
+[Site "Sofia"]
+[Date "2010.05.11"]
+[Round "12"]
+[White "Topalov, Veselin"]
+[Black "Anand, Viswanathan"]
+[Result "0-1"]
+[ECO "D56"]
+[WhiteElo "2805"]
+[BlackElo "2787"]
+[Annotator "wei"]
+[PlyCount "112"]
+[EventDate "2010.04.24"]
+[EventType "match"]
+[EventRounds "12"]
+[EventCountry "BUL"]
+[SourceTitle "CBM 136"]
+[Source "ChessBase"]
+[SourceDate "2010.05.18"]
+[SourceVersion "1"]
+[SourceVersionDate "2010.05.18"]
+[SourceQuality "1"]
+
+{[%evp 0,112,38,35,49,0,3,4,0,2,23,20,44,14,15,8,32,46,46,51,69,54,48,48,48,40,
+48,41,29,29,29,39,39,12,6,14,14,6,6,0,5,-5,0,-11,10,-23,-23,-15,-39,-15,-15,
+-17,-15,-17,5,-7,-2,-11,-2,-2,-2,13,14,-42,-40,-197,-174,-245,-161,-211,-268,
+-280,-296,-248,-48,-47,-47,-47,-58,-219,-234,-228,-15,-12,-12,-67,-86,-188,
+-211,-204,-218,-218,-246,-246,-246,-329,-328,-363,-375,-470,-376,-397,-397,
+-440,-477,-502,-502,-524,-557,-572,-599,-744,-797,-797,-842]} 1. d4 d5 2. c4 e6
+3. Nf3 Nf6 4. Nc3 Be7 5. Bg5 h6 6. Bh4 O-O 7. e3 Ne4 8. Bxe7 Qxe7 9. Rc1 c6 10.
+Be2 (10. Bd3) 10... Nxc3 11. Rxc3 dxc4 12. Bxc4 Nd7 13. O-O b6 14. Bd3 c5 15.
+Be4 Rb8 16. Qc2 Nf6 17. dxc5 Nxe4 18. Qxe4 bxc5 19. Qc2 Bb7 20. Nd2 (20. Rxc5
+Bxf3 21. gxf3 Rxb2) 20... Rfd8 21. f3 Ba6 22. Rf2 Rd7 23. g3 Rbd8 24. Kg2 Bd3
+25. Qc1 Ba6 26. Ra3 Bb7 27. Nb3 Rc7 28. Na5 Ba8 29. Nc4 e5 30. e4 (30. Rc3 e4
+31. f4) 30... f5 31. exf5 e4 32. fxe4 Qxe4+ 33. Kh3 Rd4 34. Ne3 Qe8 35. g4 h5
+36. Kh4 g5+ 37. fxg6 Qxg6 38. Qf1 Rxg4+ 39. Kh3 Re7 40. Rf8+ Kg7 (40... Kh7 41.
+Rh8+ Kxh8 42. Qf8+ Qg8 43. Qh6+ Rh7 44. Qf6+ Rhg7 45. Qh6+ Qh7) 41. Nf5+ Kh7
+42. Rg3 Rxg3+ 43. hxg3 Qg4+ 44. Kh2 Re2+ 45. Kg1 Rg2+ 46. Qxg2 Bxg2 47. Kxg2 (
+47. Rf7+ Kg6 48. Rg7+ Kxf5 49. Rxg4 hxg4 50. Kxg2 Ke4 51. Kf2 Kd3) 47... Qe2+
+48. Kh3 c4 49. a4 a5 50. Rf6 Kg8 51. Nh6+ Kg7 52. Rb6 Qe4 53. Kh2 Kh7 54. Rd6
+Qe5 55. Nf7 Qxb2+ 56. Kh3 Qg7 0-1
+
+[Event "Leuven GCT rapid"]
+[Site "Leuven"]
+[Date "2016.06.17"]
+[Round "2"]
+[White "So, Wesley"]
+[Black "Kramnik, Vladimir"]
+[Result "1/2-1/2"]
+[ECO "D61"]
+[WhiteElo "2770"]
+[BlackElo "2812"]
+[Annotator "wei"]
+[PlyCount "97"]
+[EventDate "2016.06.17"]
+[EventType "tourn (rapid)"]
+[EventRounds "9"]
+[EventCountry "BEL"]
+[EventCategory "22"]
+[SourceTitle "CBM 173"]
+[Source "ChessBase"]
+[SourceDate "2016.07.12"]
+[SourceVersion "1"]
+[SourceVersionDate "2016.07.12"]
+[SourceQuality "1"]
+
+{[%evp 0,97,35,36,27,3,4,4,2,-28,23,12,30,27,27,38,31,18,35,25,27,53,56,40,31,
+28,35,31,56,45,71,40,70,41,57,52,45,61,53,37,40,43,22,22,16,17,7,5,10,0,0,0,-4,
+-9,-30,-84,-51,-58,-5,0,0,0,34,40,51,49,30,34,78,94,105,99,108,89,85,67,74,78,
+82,90,78,67,56,71,70,46,49,46,66,63,51,51,55,68,66,68,82,59,57,34]} 1. d4 d5 2.
+c4 e6 3. Nc3 Nf6 4. Bg5 Be7 5. e3 Nbd7 6. Nf3 h6 7. Bh4 O-O 8. Qc2 c5 9. Rd1
+Qa5 10. cxd5 Nxd5 11. Bxe7 Nxe7 12. Be2 Nf6 13. O-O cxd4 14. Rxd4 Nc6 (14... e5
+15. Qa4 Qc7 16. Rd2 Be6) 15. Rd2 Bd7 16. Rfd1 Rfd8 17. Qb3 Rab8 18. a3 a6 19.
+Bd3 Be8 20. Bb1 Rxd2 21. Nxd2 Ne5 22. Nc4 Nxc4 23. Qxc4 Bc6 24. Qd4 Rc8 25. h3
+Qh5 26. Rd2 Qg5 27. f3 e5 28. Qd3 e4 29. fxe4 Re8 30. Qd4 Nd7 31. Rf2 Ne5 32.
+Ba2 Rd8 33. Nd5 Bxd5 34. exd5 Rd6 35. Bb1 g6 36. Be4 Qe7 37. Bf3 Rd8 38. Bg4
+Qc7 39. Rf1 h5 40. Be2 Qd6 41. e4 Rc8 42. Bd3 Kg7 43. Qe3 b5 44. Kh1 Rc7 45.
+Qf4 f6 46. Qd2 Qc5 47. Bb1 g5 48. Qe2 h4 49. Bd3 1/2-1/2
+
+[Event "Gladiators May 18th"]
+[Site "chess.com INT"]
+[Date "2020.05.18"]
+[Round "6"]
+[White "Kuzubov, Yuriy"]
+[Black "Eljanov, Pavel"]
+[Result "1/2-1/2"]
+[ECO "D63"]
+[WhiteElo "2643"]
+[BlackElo "2672"]
+[Annotator "wei"]
+[PlyCount "87"]
+[EventDate "2020.05.18"]
+[EventType "match (blitz)"]
+[EventRounds "10"]
+[EventCountry "UKR"]
+[SourceTitle "Mega2020 Update 32"]
+[Source "Chessbase"]
+[SourceDate "2020.05.29"]
+[SourceVersion "1"]
+[SourceVersionDate "2020.05.29"]
+[SourceQuality "1"]
+
+{[%evp 0,87,36,14,23,4,2,2,2,2,27,27,27,38,31,32,32,30,33,47,52,39,41,25,28,16,
+35,32,21,-2,3,15,6,23,7,-11,-1,-11,20,5,31,27,61,59,57,59,78,20,16,16,24,24,39,
+23,46,14,24,0,38,-1,36,12,31,3,3,39,44,38,35,39,39,39,39,45,58,33,46,15,22,26,
+51,53,62,22,57,49,79,23,36,54]} 1. d4 d5 2. c4 e6 3. Nc3 Nf6 4. Nf3 Be7 5. Bg5
+Nbd7 6. e3 h6 7. Bh4 O-O 8. Rc1 c5 9. cxd5 Nxd5 10. Bxe7 Nxe7 11. Be2 cxd4 (
+11... b6 12. dxc5 Nxc5 13. O-O Bb7) 12. Nxd4 Nf6 13. O-O Bd7 14. Bf3 Qb6 15.
+Qb3 Qxb3 16. Nxb3 Bc6 17. Bxc6 Nxc6 18. Nc5 Rab8 19. Rfd1 Rfd8 (19... b6 20.
+Na6 Rbc8) 20. Rxd8+ Rxd8 21. Nxb7 Rb8 22. Na4 Nb4 23. Na5 Nxa2 24. Rc7 a6 25.
+Nc6 Rb5 26. h3 Nb4 27. Nd4 Rb8 28. Ra7 Nd3 29. Rxa6 Nxb2 30. Nc6 Rb5 31. Nxb2
+Rxb2 32. Ra8+ Kh7 33. Ra7 Kg8 34. Ra8+ Kh7 35. Ra7 Kg8 36. Ne5 Ne4 37. f3 Ng3
+38. Nxf7 Rb1+ 39. Kf2 Nh1+ 40. Ke2 Rb2+ 41. Kf1 Rb1+ 42. Ke2 Rb2+ 43. Kf1 Rb1+
+44. Ke2 1/2-1/2
+

@@ -1,0 +1,677 @@
+[Event "1"]
+[FEN "r5k1/3R1ppp/4pb2/8/p7/4P3/5PPP/1R4K1 w - - 0 1"]
+[SetUp "1"]
+[Date "2020.04.26"]
+[Round "?"]
+[White "1"]
+[Black "?"]
+[Result "*"]
+[Site "https://chessify.page.link/main"]
+
+1. Ra7 Rxa7 2. Rb8+ Bd8 3. Rxd8# *
+
+[Event "2"]
+[FEN "1r3r1k/1pqb3p/pR1N4/P2P4/8/5pQ1/2P2PPP/1R4K1 w - - 0 1"]
+[SetUp "1"]
+[Date "2020.04.26"]
+[Round "?"]
+[White "2"]
+[Black "?"]
+[Result "*"]
+[Site "https://chessify.page.link/main"]
+
+1. Nf7+ Rxf7 2. Qxc7 *
+
+[Event "3"]
+[FEN "4r1k1/1pb3qp/p1b2p2/3p4/3P4/P2BBQ2/1P3PP1/2R3K1 w - - 0 1"]
+[SetUp "1"]
+[Date "2020.04.26"]
+[Round "?"]
+[White "3"]
+[Black "?"]
+[Result "*"]
+[Site "https://chessify.page.link/main"]
+
+1. Bxa6 bxa6 2. Rxc6 *
+
+[Event "4"]
+[FEN "2k1r3/pp2r3/1np4n/3p2qN/8/1Q6/PPP5/1K4RR b - - 0 1"]
+[SetUp "1"]
+[Date "2020.04.26"]
+[Round "?"]
+[White "4"]
+[Black "?"]
+[Result "*"]
+[Site "https://chessify.page.link/main"]
+
+1. ... Qxg1+ 2. Rxg1 Re1+ 3. Rxe1 Rxe1# *
+
+[Event "5"]
+[FEN "r6k/6rp/1n3N1Q/pq1PNp2/1pp5/P7/1PR3PP/6K1 w - - 0 1"]
+[SetUp "1"]
+[Result "*"]
+[Date "2020.04.26"]
+[Round "?"]
+[White "5"]
+[Black "?"]
+[Site "https://chessify.page.link/main"]
+
+*
+
+[Event "6"]
+[FEN "1r2r1k1/1p4p1/p2pp2p/4N1q1/Pp2Pn2/1P4N1/3Q1PPP/R3R1K1 b - - 0 1"]
+[SetUp "1"]
+[Date "2020.04.26"]
+[Round "?"]
+[White "6"]
+[Black "?"]
+[Result "*"]
+[Site "https://chessify.page.link/main"]
+
+1. ... Nh3+ 2. gxh3 Qxd2 *
+
+[Event "7"]
+[FEN "3Rrk2/p1r1ppbp/2p1b1p1/2B5/8/2P2B2/PP3PPP/3R2K1 w - - 0 1"]
+[SetUp "1"]
+[Date "2020.04.26"]
+[Round "?"]
+[White "7"]
+[Black "?"]
+[Result "*"]
+[Site "https://chessify.page.link/main"]
+
+1. Bxa7 Rxa7 2. Bxc6 *
+
+[Event "8"]
+[FEN "r2qk2r/pppnbp1p/3nb1pQ/3pN3/3P4/3B4/PPP2PPP/RNB1R1K1 w kq - 0 1"]
+[SetUp "1"]
+[Date "2020.04.26"]
+[Round "?"]
+[White "8"]
+[Black "?"]
+[Result "*"]
+[Site "https://chessify.page.link/main"]
+
+1. Nxg6 fxg6 2. Rxe6 *
+
+[Event "9"]
+[FEN "8/3k4/p1n1p1p1/1p1pPpP1/1P1P1P2/P4R2/2N4r/3K4 b - - 0 1"]
+[SetUp "1"]
+[Date "2020.04.26"]
+[Round "?"]
+[White "9"]
+[Black "?"]
+[Result "*"]
+[Site "https://chessify.page.link/main"]
+
+1. ... Rxc2 2. Kxc2 Nxd4+ 3. Kd1 Nxf3 *
+
+[Event "10"]
+[FEN "1r4kr/p4p2/1npNp2p/2q1b3/2P4Q/5N2/1P1R1PP1/3R2K1 w - - 0 1"]
+[SetUp "1"]
+[Date "2020.04.26"]
+[Round "?"]
+[White "10"]
+[Black "?"]
+[Result "*"]
+[Site "https://chessify.page.link/main"]
+
+1. b4 Qxb4 2. Nxe5 *
+
+[Event "11"]
+[FEN "4r1k1/p5bp/3qn1p1/1R6/2Q1BPP1/2P5/P6K/1RBr4 b - - 0 1"]
+[SetUp "1"]
+[Date "2020.04.26"]
+[Round "?"]
+[White "11"]
+[Black "?"]
+[Result "*"]
+[Site "https://chessify.page.link/main"]
+
+1. ... Rxc1 2. Rxc1 Qxf4+ *
+
+[Event "12"]
+[FEN "3rk2r/pBpq1pp1/1n2p1p1/3n4/6P1/2b1BQ1P/PPP5/3R1RK1 w k - 0 1"]
+[SetUp "1"]
+[Date "2020.04.26"]
+[Round "?"]
+[White "12"]
+[Black "?"]
+[Result "*"]
+[Site "https://chessify.page.link/main"]
+
+1. Bc6 *
+
+[Event "13"]
+[FEN "3r2k1/5pp1/p6p/1p1r1q2/1Pnbp2P/PR4B1/4QPP1/3RN1K1 b - - 0 1"]
+[SetUp "1"]
+[Date "2020.04.26"]
+[Round "?"]
+[White "13"]
+[Black "?"]
+[Result "*"]
+[Site "https://chessify.page.link/main"]
+
+1. ... Bxf2+ 2. Qxf2 Qxf2+ 3. Kxf2 Rxd1 *
+
+[Event "14"]
+[FEN "4rqrk/p4p1p/2p2Pp1/1p4Q1/3P2PR/3b3N/P1P4P/6K1 w - - 0 1"]
+[SetUp "1"]
+[Date "2020.04.26"]
+[Round "?"]
+[White "14"]
+[Black "?"]
+[Result "*"]
+[Site "https://chessify.page.link/main"]
+
+1. Rxh7+ Kxh7 2. Qh4+ Qh6 3. Ng5+ Kh8 4. Qxh6# *
+
+[Event "15"]
+[FEN "4r2k/p3q1p1/1np1pp1p/3r4/3P2Q1/5NR1/PP3PPP/4R1K1 w - - 0 1"]
+[SetUp "1"]
+[Date "2020.04.26"]
+[Round "?"]
+[White "15"]
+[Black "?"]
+[Result "*"]
+[Site "https://chessify.page.link/main"]
+
+1. Rxe6 Qc7 2. Rxe8+ Kh7 3. Qe4+ g6 4. Qxg6# *
+
+Event "16"]
+[FEN "1n1r1r1k/pq2NBpp/bp3n2/2p1b1N1/8/4P2P/PPQB1PP1/R3R1K1 w - - 0 1"]
+[SetUp "1"]
+[Date "2020.04.26"]
+[Round "?"]
+[White "16"]
+[Black "?"]
+[Result "*"]
+[Site "https://chessify.page.link/main"]
+
+1. Qxh7+ Nxh7 2. Ng6# *
+
+[Event "17"]
+[FEN "3r1rk1/1bq1bppp/p2p4/1p2pP2/2n1P3/P1N2B2/1PP1Q1PP/2BR1RK1 b - - 0 1"]
+[SetUp "1"]
+[Date "2020.04.26"]
+[Round "?"]
+[White "17"]
+[Black "?"]
+[Result "*"]
+[Site "https://chessify.page.link/main"]
+
+1. ... Nxa3 2. bxa3 Qxc3 *
+
+[Event "18"]
+[FEN "1b3rk1/pR3p2/5n2/6pp/8/PBN1PK1P/1P6/8 w - - 0 1"]
+[SetUp "1"]
+[Date "2020.04.27"]
+[Round "?"]
+[White "18"]
+[Black "?"]
+[Result "*"]
+[Site "https://chessify.page.link/main"]
+*
+
+[Event "19"]
+[FEN "6qk/3b1p1p/p7/2pNb3/2Pn1N2/1P5P/1P4QK/R1Br4 b - - 0 1"]
+[SetUp "1"]
+[Date "2020.04.26"]
+[Round "?"]
+[White "19"]
+[Black "?"]
+[Result "*"]
+[Site "https://chessify.page.link/main"]
+*
+
+[Event "20"]
+[FEN "r5rk/p1R2Qpp/1n3p2/4p3/q7/4B2P/P4PP1/2R3K1 w - - 0 1"]
+[SetUp "1"]
+[Date "2020.04.26"]
+[Round "?"]
+[White "20"]
+[Black "?"]
+[Result "*"]
+[Site "https://chessify.page.link/main"]
+*
+
+[Event "21"]
+[FEN "2r2rk1/4q2p/pn4p1/1pb5/2p5/2B1P1Q1/PPB3PP/3R1R1K w - - 0 1"]
+[SetUp "1"]
+[Date "2020.04.26"]
+[Round "?"]
+[White "21"]
+[Black "?"]
+[Result "*"]
+[Site "https://chessify.page.link/main"]
+*
+
+[Event "22"]
+[FEN "5k2/qp1r1pp1/4p3/3pP1Q1/8/1R5P/2r2PP1/1R4K1 w - - 0 1"]
+[SetUp "1"]
+[Date "2020.04.26"]
+[Round "?"]
+[White "22"]
+[Black "?"]
+[Result "*"]
+[Site "https://chessify.page.link/main"]
+*
+
+[Event "23"]
+[FEN "r6k/6pp/8/1p2N3/8/1B2KPP1/1r4P1/4R3 w - - 0 1"]
+[SetUp "1"]
+[Date "2020.04.26"]
+[Round "?"]
+[White "23"]
+[Black "?"]
+[Result "*"]
+[Site "https://chessify.page.link/main"]
+*
+
+[Event "24"]
+[FEN "r4nk1/p4p1p/2p4r/3p1B2/3P2bq/4P1N1/P4PP1/RQR3K1 b - - 0 1"]
+[SetUp "1"]
+[Date "2020.04.26"]
+[Round "?"]
+[White "24"]
+[Black "?"]
+[Result "*"]
+[Site "https://chessify.page.link/main"]
+*
+
+[Event "25"]
+[FEN "2b2rk1/rpp2pp1/p1np1q1p/4p3/4Pn2/1BPP1N1P/PP3PPN/R2QR1K1 b - - 0 1"]
+[SetUp "1"]
+[Date "2020.04.26"]
+[Round "?"]
+[White "25"]
+[Black "?"]
+[Result "*"]
+[Site "https://chessify.page.link/main"]
+
+1. ... Bxh3 2. gxh3 Qg6+ 3. Ng4 Nxh3+ 4. Kh2 Qxg4 *
+
+[Event "26"]
+[FEN "R3r3/1k5p/1q3pp1/1p2p3/1Q1rP3/1P5P/5PP1/R5K1 w - - 0 1"]
+[SetUp "1"]
+[Date "2020.04.26"]
+[Round "?"]
+[White "26"]
+[Black "?"]
+[Result "*"]
+[Site "https://chessify.page.link/main"]
+*
+
+[Event "27"]
+[FEN "4r1k1/2p3p1/p3q1Np/1pb3rP/1P2pp2/P1P2P1P/4Q3/R4K1R b - - 0 1"]
+[SetUp "1"]
+[Date "2020.04.26"]
+[Round "?"]
+[White "27"]
+[Black "?"]
+[Result "*"]
+[Site "https://chessify.page.link/main"]
+*
+
+[Event "28"]
+[FEN "1n1qbr1k/p4Bbp/1p1NQ1p1/2n1P3/p2P1N2/4BPP1/7P/2R3K1 w - - 0 1"]
+[SetUp "1"]
+[Date "2020.04.26"]
+[Round "?"]
+[White "28"]
+[Black "?"]
+[Result "*"]
+[Site "https://chessify.page.link/main"]
+*
+
+[Event "29"]
+[FEN "6k1/b5p1/p1n1p2p/1p1qPp2/8/P1N2NP1/1PQ2PKP/8 b - - 0 1"]
+[SetUp "1"]
+[Date "2020.04.26"]
+[Round "?"]
+[White "29"]
+[Black "?"]
+[Result "*"]
+[Site "https://chessify.page.link/main"]
+*
+
+[Event "30"]
+[FEN "1rbr4/pp2q1k1/6p1/4Np1p/3P1P2/1Q6/PP4PP/3R1RK1 w - - 0 1"]
+[SetUp "1"]
+[Date "2020.04.26"]
+[Round "?"]
+[White "30"]
+[Black "?"]
+[Result "*"]
+[Site "https://chessify.page.link/main"]
+*
+
+[Event "31"]
+[FEN "2r3k1/p2q1pbp/b5r1/2BpPN2/6Q1/7P/PP4P1/2R1R1K1 w - - 0 1"]
+[SetUp "1"]
+[Date "2020.04.26"]
+[Round "?"]
+[White "31"]
+[Black "?"]
+[Result "*"]
+[Site "https://chessify.page.link/main"]
+*
+
+[Event "32"]
+[FEN "6rr/p1kn1p2/1ppbb2p/4p3/2P1P1nN/P2B2N1/1P1B1PP1/R4RK1 b - - 0 1"]
+[SetUp "1"]
+[Date "2020.04.26"]
+[Round "?"]
+[White "32"]
+[Black "?"]
+[Result "*"]
+[Site "https://chessify.page.link/main"]
+*
+
+[Event "33"]
+[FEN "r1b1r1k1/p1qpnp2/2pR2pQ/8/4P3/1BN5/PPP2PPP/5RK1 w - - 0 1"]
+[SetUp "1"]
+[Date "2020.04.26"]
+[Round "?"]
+[White "33"]
+[Black "?"]
+[Result "*"]
+[Site "https://chessify.page.link/main"]
+*
+
+[Event "34"]
+[FEN "r3kr2/pp1b3Q/3q2p1/2pN1p2/5P2/3P2P1/PP1K4/1R5R w q - 0 1"]
+[SetUp "1"]
+[Date "2020.04.26"]
+[Round "?"]
+[White "34"]
+[Black "?"]
+[Result "*"]
+[Site "https://chessify.page.link/main"]
+*
+
+[Event "35"]
+[FEN "rqb2rk1/pp2npbp/2nR2p1/1N2p3/2B1P3/PQ3NB1/1P3PPP/4K2R w K - 0 1"]
+[SetUp "1"]
+[Date "2020.04.26"]
+[Round "?"]
+[White "35"]
+[Black "?"]
+[Result "*"]
+[Site "https://chessify.page.link/main"]
+*
+
+[Event "36"]
+[FEN "r1b2rk1/2q1bppp/p1n1p3/1p6/4Nn2/2BB1N1Q/PPP3PP/R4RK1 w - - 0 1"]
+[SetUp "1"]
+[Date "2020.04.26"]
+[Round "?"]
+[White "36"]
+[Black "?"]
+[Result "*"]
+[Site "https://chessify.page.link/main"]
+*
+
+[Event "37"]
+[FEN "r4rk1/pp1qp3/3pN2p/2pPbb2/2P3pP/2N3P1/PP2Q1P1/R4RK1 w - - 0 1"]
+[SetUp "1"]
+[Date "2020.04.26"]
+[Round "?"]
+[White "37"]
+[Black "?"]
+[Result "*"]
+[Site "https://chessify.page.link/main"]
+*
+
+[Event "38"]
+[FEN "r1b2rk1/b4p1p/p1nq1p2/3Np3/1PQ5/P4N2/5PPP/R1B2RK1 w - - 0 1"]
+[SetUp "1"]
+[Date "2020.04.26"]
+[Round "?"]
+[White "38"]
+[Black "?"]
+[Result "*"]
+[Site "https://chessify.page.link/main"]
+*
+
+[Event "39"]
+[FEN "3r2k1/Rp3ppp/4p3/3rb3/2q5/2P1B2P/1PQ2PP1/5RK1 b - - 0 1"]
+[SetUp "1"]
+[Date "2020.04.26"]
+[Round "?"]
+[White "39"]
+[Black "?"]
+[Result "*"]
+[Site "https://chessify.page.link/main"]
+*
+
+[Event "40"]
+[FEN "5bk1/5ppp/8/Rb2p3/8/3P1P2/2rNKBPP/8 b - - 0 1"]
+[SetUp "1"]
+[Date "2020.04.26"]
+[Round "?"]
+[White "40"]
+[Black "?"]
+[Result "*"]
+[Site "https://chessify.page.link/main"]
+*
+
+[Event "41"]
+[FEN "5r2/5pkp/p4Rp1/4p3/P3q3/1QP2N2/5PPP/6K1 w - - 0 1"]
+[SetUp "1"]
+[Date "2020.04.26"]
+[Round "?"]
+[White "41"]
+[Black "?"]
+[Result "*"]
+[Site "https://chessify.page.link/main"]
+*
+
+[Event "42"]
+[FEN "6k1/1p4p1/4q1p1/3pP2n/3R4/5PB1/1P2Q1PK/r7 b - - 0 1"]
+[SetUp "1"]
+[Date "2020.04.26"]
+[Round "?"]
+[White "42"]
+[Black "?"]
+[Result "*"]
+[Site "https://chessify.page.link/main"]
+*
+
+[Event "43"]
+[FEN "1rbq1rk1/1p3pbp/pn1p1np1/2pP4/P1N5/2N3P1/1P2PPBP/R1BQ1RK1 w - - 0 1"]
+[SetUp "1"]
+[Date "2020.04.26"]
+[Round "?"]
+[White "43"]
+[Black "?"]
+[Result "*"]
+[Site "https://chessify.page.link/main"]
+*
+
+[Event "44"]
+[FEN "3r3k/ppq4p/2r5/5p2/3n1P2/5P2/PP3Q1P/1B2R1RK w - - 0 1"]
+[SetUp "1"]
+[Date "2020.04.26"]
+[Round "?"]
+[White "44"]
+[Black "?"]
+[Result "*"]
+[Site "https://chessify.page.link/main"]
+*
+
+[Event "45"]
+[FEN "6k1/p1q1bp2/1p2p1p1/7p/3P4/1PnB1P2/P2Q1P1P/2B3K1 b - - 0 1"]
+[SetUp "1"]
+[Date "2020.04.26"]
+[Round "?"]
+[White "45"]
+[Black "?"]
+[Result "*"]
+[Site "https://chessify.page.link/main"]
+*
+
+[Event "46"]
+[FEN "8/7p/pR1p2qk/P1p2p2/2PbpP1n/3r3P/1PQ1R1P1/7K b - - 0 1"]
+[SetUp "1"]
+[Date "2020.04.26"]
+[Round "?"]
+[White "46"]
+[Black "?"]
+[Result "*"]
+[Site "https://chessify.page.link/main"]
+*
+
+[Event "47"]
+[FEN "7r/pp1R1np1/2p1pk2/6p1/2P2PP1/1P3N1r/P5K1/3R4 w - - 0 1"]
+[SetUp "1"]
+[Date "2020.04.26"]
+[Round "?"]
+[White "47"]
+[Black "?"]
+[Result "*"]
+[Site "https://chessify.page.link/main"]
+*
+
+[Event "48"]
+[FEN "4Nr1k/p1p2p1p/6p1/5n2/3r1q2/Q7/PP3bPP/R3R2K b - - 0 1"]
+[SetUp "1"]
+[Date "2020.04.26"]
+[Round "?"]
+[White "48"]
+[Black "?"]
+[Result "*"]
+[Site "https://chessify.page.link/main"]
+*
+
+[Event "49"]
+[FEN "5rk1/2pnqppp/4p3/1r2P3/1P1PB3/4Q3/5P1P/R4RK1 w - - 0 1"]
+[SetUp "1"]
+[Date "2020.04.26"]
+[Round "?"]
+[White "49"]
+[Black "?"]
+[Result "*"]
+[Site "https://chessify.page.link/main"]
+*
+
+[Event "50"]
+[FEN "1r3rk1/1p1qnpb1/p2pb1pp/2p1p3/P1P1N3/3P2P1/1PQBPPBP/R4RK1 w - - 0 1"]
+[SetUp "1"]
+[Date "2020.04.26"]
+[Round "?"]
+[White "50"]
+[Black "?"]
+[Result "*"]
+[Site "https://chessify.page.link/main"]
+*
+
+[Event "51"]
+[FEN "1q4k1/6pp/2B1p1r1/3p3b/3NP3/3Q3P/Pr4p1/RR4K1 b - - 0 1"]
+[SetUp "1"]
+[Date "2020.04.26"]
+[Round "?"]
+[White "51"]
+[Black "?"]
+[Result "*"]
+[Site "https://chessify.page.link/main"]
+*
+
+[Event "52"]
+[FEN "r6k/5pqp/p2p1N1R/1p1P2p1/1P3QP1/7P/P4P2/6K1 w - - 0 1"]
+[SetUp "1"]
+[Date "2020.04.26"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[Site "https://chessify.page.link/main"]
+*
+
+[Event "53"]
+[FEN "r2r2k1/1pp2ppp/4b3/8/2N5/8/P1R2PPP/5RK1 b - - 0 1"]
+[SetUp "1"]
+[Date "2020.04.26"]
+[Round "?"]
+[White "53"]
+[Black "?"]
+[Result "*"]
+[Site "https://chessify.page.link/main"]
+*
+
+[Event "54"]
+[FEN "rn2brk1/p3bppp/2p1pn2/8/2NP4/1PN1B3/1PP1BPPP/R4RK1 w - - 0 1"]
+[SetUp "1"]
+[Date "2020.04.26"]
+[Round "?"]
+[White "54"]
+[Black "?"]
+[Result "*"]
+[Site "https://chessify.page.link/main"]
+*
+
+[Event "55"]
+[FEN "k3q2r/p3b1p1/Q1p1p1b1/2P1B2p/2P3P1/7P/P4P1K/3R4 w - - 0 1"]
+[SetUp "1"]
+[Date "2020.04.26"]
+[Round "?"]
+[White "55"]
+[Black "?"]
+[Result "*"]
+[Site "https://chessify.page.link/main"]
+*
+
+[Event "56"]
+[FEN "r4rk1/p1p2ppp/8/1pbPp3/3nP1bq/1B6/PPP2PPP/RNB1QR1K b - - 0 1"]
+[SetUp "1"]
+[Date "2020.04.26"]
+[Round "?"]
+[White "56"]
+[Black "?"]
+[Result "*"]
+[Site "https://chessify.page.link/main"]
+*
+
+[Event "57"]
+[FEN "r2k3r/2qbbp2/3p1p1p/4nP1B/pp1N1N2/7Q/PPP3PP/2KR3R w - - 0 1"]
+[SetUp "1"]
+[Date "2020.04.26"]
+[Round "?"]
+[White "57"]
+[Black "?"]
+[Result "*"]
+[Site "https://chessify.page.link/main"]
+*
+
+[Event "58"]
+[FEN "2rr2k1/1b4p1/4p3/8/pp1qp3/4Q3/PPP2R2/1K5R w - - 0 1"]
+[SetUp "1"]
+[Date "2020.04.26"]
+[Round "?"]
+[White "58"]
+[Black "?"]
+[Result "*"]
+[Site "https://chessify.page.link/main"]
+*
+
+[Event "59"]
+[FEN "2r3k1/pp2pp1p/6p1/6PP/2nQ4/5q2/PPP5/1K1R3R w - - 0 1"]
+[SetUp "1"]
+[Date "2020.04.26"]
+[Round "?"]
+[White "59"]
+[Black "?"]
+[Result "*"]
+[Site "https://chessify.page.link/main"]
+*
+
+[Event "60"]
+[FEN "5rk1/1p3p1p/p1qb1Bp1/8/8/1BN2R2/PPPr2PP/6RK b - - 0 1"]
+[SetUp "1"]
+[Date "2020.04.26"]
+[Round "?"]
+[White "60"]
+[Black "?"]
+[Result "*"]
+[Site "https://chessify.page.link/main"]
+*
